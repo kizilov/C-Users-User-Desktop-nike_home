@@ -1,0 +1,190 @@
+git remote add origin https://github.com/kizilov/C-Users-User-Desktop-nike_home.git
+
+
+/*@import url(//db.onlinewebfonts.com/c/a07bcad627607b6777616f8e058e8917?family=Museo+Sans+Rounded+500);
+
+@font-face {font-family: "Museo Sans Rounded 500";
+    src: url("//db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.eot");
+    src: url("//db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/a07bcad627607b6777616f8e058e8917.svg#Museo Sans Rounded 500") format("svg");
+}
+*/
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	width: 100%;
+	height:100vh;
+	font-size: 1rem;
+	background: #573b81 center no-repeat;
+	background-image: url('../img/main.jpg');
+	background-size: cover;	
+
+
+}
+
+h1{
+	color: #e1e1e1;
+	font-size: 26px;
+	font-weight: 100;
+	/*font-family: "Museo Sans Rounded 500";*/
+}
+
+p{
+	color: #e1e1e1;
+	font-size: 14px;
+	/*font-family: "Museo Sans Rounded 500";*/
+}
+
+
+
+
+.container {
+	width: 688px;
+	margin:110px auto 100px;
+	background-color: #111a28;
+	min-height: 390px;
+	border-radius: 30px;
+
+}
+
+
+header{
+	display: inline-block;
+	margin: 24px;
+}
+
+
+.main_photo{
+	position: absolute;
+	overflow: hidden;
+	float: left;
+	width: 440px;
+	height: 330px;
+	padding-top: 30px;
+	margin-left:30px;
+
+}
+
+.color_choice{
+	
+	
+	left: 175px;
+	
+	position: relative;	
+}
+
+
+.color_choice_table{
+    margin-right: 5px;
+    position: absolute;
+    margin-bottom: 0 auto;
+
+}
+
+.choice_table{
+	display: inline;
+	margin-right: 8px;
+
+}
+
+
+
+
+.main_content{
+	margin-top: 77px;
+	margin-right: 56px;
+	float: right;
+	width: 186px;
+	height: 300px;
+	
+}
+
+
+.card__stars {
+	padding: 0;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.card__star {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDE5LjQ4MSAxOS40ODEiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE5LjQ4MSAxOS40ODEiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMTAuMjAxLC43NThsMi40NzgsNS44NjUgNi4zNDQsLjU0NWMwLjQ0LDAuMDM4IDAuNjE5LDAuNTg3IDAuMjg1LDAuODc2bC00LjgxMiw0LjE2OSAxLjQ0Miw2LjIwMmMwLjEsMC40MzEtMC4zNjcsMC43Ny0wLjc0NSwwLjU0MWwtNS40NTItMy4yODgtNS40NTIsMy4yODhjLTAuMzc5LDAuMjI4LTAuODQ1LTAuMTExLTAuNzQ1LTAuNTQxbDEuNDQyLTYuMjAyLTQuODEzLTQuMTdjLTAuMzM0LTAuMjg5LTAuMTU2LTAuODM4IDAuMjg1LTAuODc2bDYuMzQ0LS41NDUgMi40NzgtNS44NjRjMC4xNzItMC40MDggMC43NDktMC40MDggMC45MjEsMHoiIGZpbGw9IiMwMDAwMDAiLz4KICA8L2c+Cjwvc3ZnPgo=);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+[data-stars="0"] .card__star:nth-child(n + 1) {
+	opacity: .4;
+}
+
+[data-stars="1"] .card__star:nth-child(n + 2) {
+	opacity: .4;
+}
+
+[data-stars="2"] .card__star:nth-child(n + 3) {
+	opacity: .4;
+}
+
+[data-stars="3"] .card__star:nth-child(n + 4) {
+	opacity: .4;
+}
+
+[data-stars="4"] .card__star:nth-child(n + 5) {
+	opacity: .4;
+}
+
+
+.choice{
+	padding-top: 20px;
+	margin-bottom: 28px;
+	
+}
+
+.size{
+	background-color: #111a28;
+	font-size: 14px;
+	color: #e1e1e1;
+	padding: 5px 13px;
+	border: 1px solid white;
+	
+
+}
+
+.qty{
+	background-color: #111a28;
+	font-size: 14px;
+	color: #e1e1e1;
+	padding: 5px 13px;
+	border: 1px solid white;
+	color: #e1e1e1;
+
+
+}
+
+button{
+	width: 182px;
+	background-color: #202835;
+	padding: 7px 42px;
+	font-size: 14px;
+	color: #e1e1e1;
+	border: 1px solid white;
+
+}
+button:hover,
+button:focus,
+button:active {
+	color: #fff;
+	
+} 
+
+
+
